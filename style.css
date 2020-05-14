@@ -1,0 +1,62 @@
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #2305a8);
+    background-size: 800% 800%;
+    position: relative;
+    animation: change 10s ease-in-out infinite;
+}
+#konten {
+    margin: 0 auto;
+    margin-top: 10%;
+    width: 60%;
+    box-shadow: 0 3px 30px rgba(255, 255, 255, 0.952);
+    padding: 10px 40px 10px 40px;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h3 {
+    margin-top: -20px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    text-transform: capitalize;
+}
+#footer {
+    margin: 0 auto;
+    justify-content: right;
+    margin-top: -10px;
+    margin-left: 62%;
+    width: 30%;
+    box-shadow: 0 3px 5px rgba(255, 255, 255, 0.952);
+    color: white;
+}
+
+h5 {
+    text-transform: capitalize;
+    text-align: left;
+}
+
+h5 a {
+    text-decoration: none;
+    color: white;
+}
+
+@keyframes change {
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
